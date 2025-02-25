@@ -19,5 +19,5 @@ stages:
       poolName: 'Objetos'
       targetFolderRoot: 'C:\\inetpub\\wwwroot'
       # email1@email.com,email2@email.com........... 
-      emailsNotificacao: 'jpcoelho@senacrs.com.br, jsroedes@senacrs.com.br' 
+      emailsNotificacao: 'jpcoelho@senacrs.com.br, lsfelix@senacrs.com.br, pvmendonca@senacrs.com.br' 
       enableEmailNotification: true
