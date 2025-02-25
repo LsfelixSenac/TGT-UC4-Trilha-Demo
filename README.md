@@ -1,20 +1,26 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Para implementar o novo template, siga as orientações abaixo:
+1) Em asset crie uma nova pasta exatamente com este nome - WebGLTemplates;
+2) Entre na pasta e crie uma outra pasta com um nome que represente o template, por exemplo, SENAC
+3) Entre nesta pasta a copie os arquivos do template clonado do GitHub para esta pasta
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+        asset
+            |
+            WebGLTemplates
+                |
+                SENAC
+                    |
+                    image
+                        |
+                        zoom-in.png
+                        zoom-out.png
+                        btn-daltonismo.png
+                    Sounds
+                        |
+                        click-sound.mp3
+                    index.html
+                    scripts.js
+                    styles.css
+                    thumbnail.png
+                    README.md
+					AudioManager.cs
+	4) Crie na cena um GameOjcetc com nome de AudioManager e aplique o script AudioManager.cs (presente na paste do template)
