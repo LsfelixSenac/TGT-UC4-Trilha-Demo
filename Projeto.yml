@@ -8,7 +8,7 @@ stages:
   - template: azure-pipelines.yml@templates-pipeline
     parameters:
       branchToMonitor: 'main'
-      emailsNotificacao: 'cpteixeira@senacrs.com.br'
+      emailsNotificacao: 'lsfelix@senacrs.com.br'
       enableEmailNotification: true
       
       
